@@ -1,1 +1,1 @@
-disp("Hello world")
+ver
