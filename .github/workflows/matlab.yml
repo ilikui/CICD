@@ -2,7 +2,7 @@ name: Run MATLAB Script on Self-Hosted Runner
 on:
   push:
     branches:    
-      - master
+      - main
 
 permissions:
   actions: write
