@@ -30,7 +30,7 @@ jobs:
       - name: Run script
         uses: matlab-actions/run-command@v1
         with:
-          command: run('Model/Script/Createm')
+          command: run('Model/Script/mRobot')
       - name: Make File Commit   # need check the ENVIRONMENT
         run: |
           echo $(date) >> file.txt
