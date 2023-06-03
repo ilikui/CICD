@@ -1,14 +1,9 @@
 
-function Createm(mdName,filePath)
-
-
-    currentPath=pwd;
-    ShowLog(currentPath);
-    ValidFilePath =strcat(currentPath,'/','Model','/',filePath,'/',mdName);
+function Createm(mdName)
     
     ShowLog(ValidFilePath)
-    h =new_system(ValidFilePath);
+    h =new_system(mdName);
     save_system(h);
-    Simulink.BlockDiagram.saveActiveConfigSet(h, strcat(currentPath,'/','Model','/',filePath,'/','mdlCfg.m'))  
+    Simulink.BlockDiagram.saveActiveConfigSet(h,'mdlCfg.m'))  
     
 end
