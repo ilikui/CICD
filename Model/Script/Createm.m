@@ -7,5 +7,5 @@ disp("###############Start###############");
 
  save_system(h);
  
-%  Simulink.BlockDiagram.saveActiveConfigSet(h, 'mdlCfg.m')  
+Simulink.BlockDiagram.saveActiveConfigSet(h, 'mdlCfg.m')  
 disp("###############End###############");
