@@ -1,4 +1,4 @@
 bdclose all;
 
 
-Createm('ttt12','ModelFile')
+disp(pwd)
