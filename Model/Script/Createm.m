@@ -3,7 +3,7 @@ disp("###############Start###############");
 
  h =new_system('Mini','model');
  
- mdlCfg();
+
 
  save_system(h);
  
