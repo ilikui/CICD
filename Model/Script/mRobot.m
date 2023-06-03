@@ -1,20 +1,20 @@
 %% Analysis requirements
 
-ShowLog("语义化分析数据.........");
+ShowLog("Semantic analysis.........");
 
 
 
 %% Create  Model and Model Environment
 
-ShowLog("创建对象模型.........");
+ShowLog("Object model creation.........");
 
 
 
 %%  Model validation test
 
-ShowLog("进行模型测试验证.........");
+ShowLog("Model automated testing.........");
 
 
 %% Generate business logic code
 
-ShowLog("生成目标代码.........");
+ShowLog("Generate the business logic model?.........");
