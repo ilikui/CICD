@@ -1,4 +1,4 @@
 bdclose all;
 
-Createm("TTTT",'ModelFile');
+% Createm("TTTT",'ModelFile');
 disp(pwd)
