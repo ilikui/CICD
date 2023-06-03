@@ -8,7 +8,7 @@ ShowLog("Semantic analysis.........");
 
 ShowLog("Object model creation.........");
 
-Createm('ttt12')
+% Createm('ttt12')
 
 %%  Model validation test
 

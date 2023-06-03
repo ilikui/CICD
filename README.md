@@ -36,3 +36,11 @@ exist name 以数字形式返回 name 的类型。此列表描述与每个值关
 
 ```
 
+
+
+## V模型
+
+
+* [V模型](https://ww2.mathworks.cn/help/rtw/gs/v-model-for-system-development.html)
+* [CICD](https://www.mathworks.com/content/dam/mathworks/mathworks-dot-com/hardware-support/files/ci-cd-automation-simulink-check-support-package.pdf)
+* [参考手册](https://www.mathworks.com/content/dam/mathworks/mathworks-dot-com/hardware-support/files/ci-cd-automation-simulink-check-reference-book.pdf)
