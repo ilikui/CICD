@@ -1,11 +1,9 @@
 
-disp("###############Start###############");
+function Createm(mdName,filePath)
 
- h =new_system('Mini','model');
- 
+    ValidFilePath =strcat('..\',filePath,'\',mdName);
 
-
- save_system(h);
- 
-Simulink.BlockDiagram.saveActiveConfigSet(h, 'mdlCfg.m')  
-disp("###############End###############");
+    new_system(mdName,'model');
+    save_system(ValidFilePath);
+    %Simulink.BlockDiagram.saveActiveConfigSet(h, strcat('..\',filePath,'\','mdlCfg.m'))  
+end
