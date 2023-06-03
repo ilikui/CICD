@@ -15,8 +15,8 @@ end
 cs.set_param('Name', 'Configuration'); % Name
 cs.set_param('Description', ''); % Description
 
-% Original configuration set target is grt.tlc
-cs.switchTarget('grt.tlc','');
+% Original configuration set target is ert.tlc
+cs.switchTarget('ert.tlc','');
 
 cs.set_param('HardwareBoard', 'None');   % Hardware board
 
@@ -26,13 +26,13 @@ cs.set_param('CodeInterfacePackaging', 'Nonreusable function');   % Code interfa
 
 cs.set_param('GenerateAllocFcn', 'off');   % Use dynamic memory allocation for model initialization
 
-cs.set_param('Solver', 'VariableStepAuto');   % Solver
+cs.set_param('Solver', 'FixedStepDiscrete');   % Solver
 
 % Solver
 cs.set_param('StartTime', '0.0');   % Start time
 cs.set_param('StopTime', '10.0');   % Stop time
-cs.set_param('SolverName', 'VariableStepAuto');   % Solver
-cs.set_param('SolverType', 'Variable-step');   % Type
+cs.set_param('SolverName', 'discrete');   % Solver
+cs.set_param('SolverType', 'Fixed-step');   % Type
 cs.set_param('AbsTol', 'auto');   % Absolute tolerance
 cs.set_param('InitialStep', 'auto');   % Initial step size
 cs.set_param('ZeroCrossControl', 'UseLocalSettings');   % Zero-crossing control
