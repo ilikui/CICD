@@ -1,7 +1,9 @@
 
 function Createm(mdName,filePath)
 
-    ValidFilePath =strcat('..\',filePath,'\',mdName);
+
+    currentPath=pwd;
+    ValidFilePath =strcat(currentPath,'\','Model','\',filePath,'\',mdName);
 
     new_system(mdName,'model');
     save_system(ValidFilePath);
