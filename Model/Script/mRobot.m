@@ -17,4 +17,4 @@ ShowLog("Model automated testing.........");
 
 %% Generate business logic code
 
-ShowLog("Generate the business logic model?.........");
+ShowLog("Generate the business logic model.........");

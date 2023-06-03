@@ -30,8 +30,7 @@ jobs:
       - name: Run script
         uses: matlab-actions/run-command@v1
         with:
-          source-folder: Model/Script
-          command: run('Model/Script/ShowLog')
+          command: run('Model/Script/Createm')
       - name: Make File Commit   # need check the ENVIRONMENT
         run: |
           echo $(date) >> file.txt
