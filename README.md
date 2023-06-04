@@ -51,6 +51,7 @@ exist name 以数字形式返回 name 的类型。此列表描述与每个值关
 ## 使用Python安装依赖
 
 > 导出依赖
+
 `pip freeze > requirements.txt`
 
 > 安装依赖
