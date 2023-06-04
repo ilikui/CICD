@@ -34,6 +34,7 @@ jobs:
           pip3 install requests
           pip3 install feedparser
           pip3 install Pillow
+          pip3 install --upgrade pip3
           pip3 freeze > requirements.txt  # CheckOut pip3 env
       - name: Setup MATLAB
         uses: matlab-actions/setup-matlab@v1
