@@ -30,12 +30,12 @@ jobs:
         with:
           python-version: "3.10"
       - name: Install The Environment
-        run: |  
+        run: | 
+          pip install --upgrade pip 
           pip3 install requests
           pip3 install feedparser
           pip3 install Pillow
-          pip3 install --upgrade pip3
-          pip3 freeze > requirements.txt  # CheckOut pip3 env
+          pip install -r requirements.txt    # Installation dependency
       - name: Setup MATLAB
         uses: matlab-actions/setup-matlab@v1
       - name: Run script
