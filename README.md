@@ -1,4 +1,8 @@
 
+
+![](Image/CICDBlog.webp)
+
+
 - [简单的CICD说明](#简单的cicd说明)
 - [模型文件是否存在判断](#模型文件是否存在判断)
 - [使用Python安装依赖](#使用python安装依赖)
