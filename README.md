@@ -16,11 +16,13 @@
 ```markdown
 exist name 以数字形式返回 name 的类型。此列表描述与每个值关联的类型：
 
-    0 - name 不存在或因其他原因找不到。例如，如果 name 存在于 MATLAB® 不能访问的受限文件夹中，exist 将返回 0。
+    0 - name 不存在或因其他原因找不到。例如，如果 name 存在于 MATLAB® 不能访问的受限文件夹中 
+        exist 将返回 0。
 
     1 - name 是工作区中的变量。
 
-    2 - name 是扩展名为 .m、.mlx、 或 .mlapp 的文件，name 是具有未注册文件扩展名（.mat、.fig、.txt）的文件的名称。
+    2 - name 是扩展名为 .m、.mlx、 或 .mlapp 的文件，name 是具有未注册文件扩展名（
+    .mat、.fig、.txt）的文件的名称。
 
     3 - name 是 MATLAB 搜索路径上的 MEX 文件。
 
@@ -36,6 +38,12 @@ exist name 以数字形式返回 name 的类型。此列表描述与每个值关
 
 ```
 
+
+
+## 使用Python安装依赖
+
+
+`pip freeze > requirements.txt`
 
 
 ## V模型
