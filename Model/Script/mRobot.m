@@ -2,6 +2,12 @@
 
 ShowLog("Semantic analysis.........");
 
+[version, executable, isloaded] = pyversion;
+
+disp(version);
+
+disp(isloaded);
+
 
 
 %% Create  Model and Model Environment
