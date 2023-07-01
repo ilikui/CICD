@@ -22,7 +22,7 @@ ShowLog("Model automated testing.........");
 
 
 ShowLog("This is a test for me here....");
-
+ 
 %% Generate business logic code
 
 ShowLog("Generate the business logic model.........");
@@ -30,6 +30,7 @@ ShowLog("Generate the business logic model.........");
 
 %% show the matlab version
 
-Matlabver =  ver;
+ShowLog("Print the Ver");
 
-ShowLog(Matlabver);
+
+disp(ver);
