@@ -37,4 +37,4 @@ ver
 
 ShowLog("Print the Memory fot Linux Hard");
 
-memory
+
