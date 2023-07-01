@@ -33,3 +33,8 @@ ShowLog("Generate the business logic model.........");
 ShowLog("Print the Ver");
 
 ver
+
+
+ShowLog("Print the Memory fot Linux Hard");
+
+memory
