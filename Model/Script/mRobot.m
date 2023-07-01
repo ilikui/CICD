@@ -32,5 +32,4 @@ ShowLog("Generate the business logic model.........");
 
 ShowLog("Print the Ver");
 
-
-disp(ver);
+ver
