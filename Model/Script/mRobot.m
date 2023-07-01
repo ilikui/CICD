@@ -21,6 +21,8 @@ ShowLog("Object model creation.........");
 ShowLog("Model automated testing.........");
 
 
+ShowLog("This is a test for me here....");
+
 %% Generate business logic code
 
 ShowLog("Generate the business logic model.........");
