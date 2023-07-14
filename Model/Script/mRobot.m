@@ -1,5 +1,7 @@
 %% Analysis requirements
 
+
+
 ShowLog("Semantic analysis.........");
 
 [version, executable, isloaded] = pyversion;
@@ -24,3 +26,8 @@ ShowLog("Model automated testing.........");
 %% Generate business logic code
 
 ShowLog("Generate the business logic model.........");
+
+
+%% Generate business logic code
+
+ShowLog("Generate the 1233 logic model.........");
