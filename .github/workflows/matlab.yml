@@ -3,6 +3,8 @@ on:
   push:
     branches:    
       - main
+env:
+  TZ: Asia/Shanghai
 
 permissions:
   actions: write
@@ -29,6 +31,15 @@ jobs:
         uses: actions/setup-python@v3
         with:
           python-version: "3.10"
+      - name: Check the Linux Memory
+        run: |
+            free -m
+            echo "Hello world"
+            uname -a
+            echo "cpu info"
+            cat /proc/cpuinfo
+            echo "sys info"
+            grep MemTotal /proc/meminfo
       - name: Install The Environment
         run: | 
           pip3 install requests
