@@ -4,7 +4,7 @@ save_path = 'Images';
 
 
 % ¶ÁÈ¡RSSFeed
-rss_url = 'https://rsshub.moeyy.cn/bing';
+rss_url = 'https://rsshub.baitry.com/bing';
 rss_data = webread(rss_url);
 
 

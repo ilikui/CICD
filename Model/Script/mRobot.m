@@ -21,6 +21,13 @@ ShowLog("Object model creation.........");
 
 % Createm('ttt12')
 
+%% Build the model
+
+mSimulink();
+
+ShowLog("Build Running");
+
+
 %%  Model validation test
 
 ShowLog("Model automated testing.........");
