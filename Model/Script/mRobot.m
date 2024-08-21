@@ -23,7 +23,7 @@ ShowLog("Object model creation.........");
 
 %% Build the model
 
-mSimulink();
+SimmBuild();
 
 ShowLog("Build Running");
 
